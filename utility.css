@@ -1,0 +1,58 @@
+.border{
+    border: 2px solid green;
+    margin: 3px;
+}
+.flex{
+    display:flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-centre{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter:invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin:5px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333; /* Dark background color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Darker color for the thumb */
+    border-radius: 6px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* Lighter color on hover */
+}
+
+/* For Firefox */
+/* You can also use scrollbar-color and scrollbar-width properties */
+/* The below is just an example */
+
+body {
+    scrollbar-width: thin; /* "auto" or "thin" or "none" */
+    scrollbar-color: #555 #333; /* Thumb and track color */
+}
+
+/* You might need to add the above to the specific elements you want to style, not just the body. */
